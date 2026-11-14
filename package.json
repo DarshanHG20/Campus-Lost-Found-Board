@@ -1,0 +1,16 @@
+{
+  "name": "campus-lost-found-board",
+  "version": "1.0.0",
+  "description": "Campus Lost & Found Board built with Node.js, Express, MongoDB (Mongoose), Multer and filesystem uploads.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "dotenv": "^18.0.10",
+    "express": "^4.22.3",
+    "mongoose": "^9.12.1",
+    "multer": "^2.5.0"
+  }
+}
